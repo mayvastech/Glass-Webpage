@@ -27,6 +27,12 @@ main {
   display: flex;
 }
 
+.user-profile img{
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+}
+
 .circle1,
 .circle2 {
   background-color: white;
