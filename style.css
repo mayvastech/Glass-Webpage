@@ -56,3 +56,11 @@ main {
     bottom: 5%;
     left: 10%;
 }
+
+.dashboard {
+  flex: 1;
+}
+
+.current-titles{
+  flex: 2;
+}
