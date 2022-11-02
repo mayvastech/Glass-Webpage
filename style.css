@@ -129,3 +129,16 @@ main {
 .current-titles {
   flex: 2;
 }
+
+.current-titles .title {
+  margin-bottom: 2rem;
+}
+
+.current-titles input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+}
