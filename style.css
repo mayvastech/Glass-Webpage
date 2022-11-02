@@ -128,6 +128,10 @@ main {
 /* GAMES SECTION */
 .current-titles {
   flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 5rem;
 }
 
 .current-titles .title {
@@ -141,4 +145,7 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
 }
