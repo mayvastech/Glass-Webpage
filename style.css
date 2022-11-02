@@ -115,6 +115,8 @@ main {
 
 .Premium h2 {
   width: 60%;
+  color: white;
+  font-weight: 600;
 }
 
 .current-titles {
