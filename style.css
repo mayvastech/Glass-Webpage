@@ -107,16 +107,22 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   color: white;
   padding: 1rem 0;
+  max-width: 80%;
 }
 
 .Premium h2 {
-  width: 60%;
+  width: 50%;
   color: white;
   font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.Premium img {
+  max-width: 30%;
 }
 
 .current-titles {
