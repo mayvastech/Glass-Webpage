@@ -27,7 +27,7 @@ main {
   display: flex;
 }
 
-.user-profile img{
+.user-profile img {
   width: 100px;
   height: 90px;
   border-radius: 50%;
@@ -48,13 +48,13 @@ main {
 }
 
 .circle1 {
-    top: 5%;
-    right: 10%;
+  top: 5%;
+  right: 10%;
 }
 
 .circle2 {
-    bottom: 5%;
-    left: 10%;
+  bottom: 5%;
+  left: 10%;
 }
 
 .dashboard {
@@ -72,6 +72,26 @@ main {
   border-radius: 2rem;
 }
 
-.current-titles{
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.Premium {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.current-titles {
   flex: 2;
 }
