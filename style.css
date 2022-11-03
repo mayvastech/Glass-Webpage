@@ -11,7 +11,8 @@ h1 {
   opacity: 0.8;
 }
 
-h2, p {
+h2,
+p {
   color: #658ec6;
   font-weight: 500;
   opacity: 0.8;
@@ -24,12 +25,18 @@ h3 {
 }
 
 main {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+img,
+h2,
+h3 {
+  cursor: pointer;
 }
 
 .glass {
@@ -107,7 +114,7 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   color: white;
   padding: 1rem 0;
@@ -148,4 +155,18 @@ main {
   width: 50%;
   padding: 0.5rem;
   border-radius: 2rem;
+}
+
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.3);
+  cursor: pointer;
 }
