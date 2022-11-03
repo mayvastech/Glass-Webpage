@@ -169,4 +169,5 @@ h3 {
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.3);
   cursor: pointer;
+  justify-content: space-between;
 }
